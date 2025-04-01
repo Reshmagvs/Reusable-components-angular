@@ -130,7 +130,7 @@ export class AppComponent {
   }
 
 ```
-6. Create components filder with button.component.ts
+6. Create components folder with button.component.ts file and update it : 
 ```
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 
