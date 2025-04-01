@@ -1,0 +1,11 @@
+<div [ngClass]="darkMode ? 'dark-container' : 'light-container'">
+  <h1>🚀 Reusable Component in Angular</h1>
+  
+  <app-button label="Click Me" (btnClick)="showAlert()"></app-button>
+  
+  <br />
+  
+  <button class="theme-button" (click)="toggleTheme()">
+    {{ darkMode ? '☀️ Light Mode' : '🌙 Dark Mode' }}
+  </button>
+</div>
